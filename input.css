@@ -1,0 +1,4 @@
+.a, .b { position: absolute; }
+.a { color: red; }
+.b { color: red; }
+.c { position: relative; }
