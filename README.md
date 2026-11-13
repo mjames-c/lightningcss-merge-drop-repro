@@ -60,7 +60,7 @@ The result is stable within a process and only varies between processes, which s
 - With a single selector (`.a{X} .a{Y} .c{Z}`) it never reproduced in 500 runs.
 - The declarations in `.c` don't matter.
 
-## Suspected cause (from reading the source, not verified)
+## Suspected cause
 
 In `CssRuleList::minify` (`src/rules/mod.rs`), when a new style rule merges into the last rule,
 a `while` loop tries to merge the last rule into the one before it and calls `rules.pop()` on
