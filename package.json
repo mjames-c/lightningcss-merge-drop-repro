@@ -2,6 +2,7 @@
   "name": "lightningcss-merge-drop-repro",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.9.0",
   "description": "Minimal repro: lightningcss minify non-deterministically drops a rule after merging rules",
   "scripts": {
     "repro": "node repro.mjs 1000"

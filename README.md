@@ -28,8 +28,8 @@ With `minify: true`, [lightningcss](https://github.com/parcel-bundler/lightningc
 ## Reproduce
 
 ```sh
-npm install
-npm run repro        # 1000 fresh processes; or: node repro.mjs 5000
+pnpm install
+pnpm run repro       # 1000 fresh processes; or: node repro.mjs 5000
 ```
 
 Example output:
